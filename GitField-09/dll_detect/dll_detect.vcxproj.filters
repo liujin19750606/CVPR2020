@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{919f81d2-a8fb-4481-8b21-8b69b89b93f6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Detector">
+      <UniqueIdentifier>{b44a5af1-4dff-4052-9f2c-7eca4ff1a220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CvPlus">
+      <UniqueIdentifier>{491cc1f6-b23e-426f-ae7c-44e404014f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{97c2a866-4a3d-4ae2-b670-8f9cc2866b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="list">
+      <UniqueIdentifier>{311381ed-c072-42b1-9e4d-e44ad311cb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{d177ee7c-8386-4397-8d3d-5fa8e0089926}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyHello.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Detector\CpObject.cpp">
+      <Filter>Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CvPlus\CPoly.cpp">
+      <Filter>CvPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\General\FileProc.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\General\MyString.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Detector\ObjectContour.cpp">
+      <Filter>Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CvPlus\CpMyDraw.cpp">
+      <Filter>CvPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CvPlus\CpImageProc.cpp">
+      <Filter>CvPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\list\list.c">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\list\option_list.c">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\utils.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Detector\CpObject.h">
+      <Filter>Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CvPlus\CPoly.h">
+      <Filter>CvPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\General\FileProc.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\General\MyString.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Detector\ObjectContour.h">
+      <Filter>Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CvPlus\CpMyDraw.h">
+      <Filter>CvPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CvPlus\CpImageProc.h">
+      <Filter>CvPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dll\main_dll.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\list\list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\list\option_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

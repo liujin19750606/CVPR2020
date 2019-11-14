@@ -1,0 +1,1 @@
+data_path = E:\CVPR\224x224\
